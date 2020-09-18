@@ -16,10 +16,10 @@
 
 #footer {
   color:orange;
-  position: bottom;
+  position: absolute;
   bottom: 0%;
   width: 20%;
-  height: 2.5rem;            /* Footer height */
+  height: 6.5rem;            /* Footer height */
 }
 
 .list-unstyled { 
@@ -29,7 +29,7 @@ font-family: cursive;
 }
 
 body {
-  background: rgb(81, 65, 107)
+  background: rgb(63, 3, 158)
   url('img/temp_banner.jpg') no-repeat right fixed;
   -webkit-background-size: 8rem;
   -moz-background-size: 8rem;
@@ -41,4 +41,40 @@ body {
   color: aqua;
   font-size: 1.5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .topic1 {
+    background: rgb(76, 75, 76)
+    url('img/temp_banner.jpg') no-repeat right fixed;
+    -webkit-background-size: 8rem;
+    -moz-background-size: 8rem;
+    background-size: 8rem;
+    -o-background-size: 8rem;
+  }
+
+  .topic2 {
+    background: rgb(10, 141, 173)
+    url('img/temp_banner.jpg') no-repeat right fixed;
+    -webkit-background-size: 8rem;
+    -moz-background-size: 8rem;
+    background-size: 8rem;
+    -o-background-size: 8rem;
+  }
+
+  .topic3 {
+    background: rgb(138, 90, 90)
+    url('img/temp_banner.jpg') no-repeat right fixed;
+    -webkit-background-size: 8rem;
+    -moz-background-size: 8rem;
+    background-size: 8rem;
+    -o-background-size: 8rem;
+  }
+
+  .topic4 {
+    background: rgb(126, 116, 15)
+    url('img/temp_banner.jpg') no-repeat right fixed;
+    -webkit-background-size: 8rem;
+    -moz-background-size: 8rem;
+    background-size: 8rem;
+    -o-background-size: 8rem;
   }
