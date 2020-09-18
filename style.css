@@ -16,9 +16,9 @@
 
 #footer {
   color:orange;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+  position: bottom;
+  bottom: 0%;
+  width: 20%;
   height: 2.5rem;            /* Footer height */
 }
 
@@ -29,10 +29,16 @@ font-family: cursive;
 }
 
 body {
-  background: rgb(81, 65, 107) 
+  background: rgb(81, 65, 107)
   url('img/temp_banner.jpg') no-repeat right fixed;
   -webkit-background-size: 8rem;
   -moz-background-size: 8rem;
   background-size: 8rem;
   -o-background-size: 8rem;
 }
+
+.lead {
+  color: aqua;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
