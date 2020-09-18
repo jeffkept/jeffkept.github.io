@@ -1,6 +1,4 @@
-body {
-  background-color: rgb(131, 65, 238);
-}
+
 
 
 /* Modify the backgorund color */ 
@@ -31,7 +29,8 @@ font-family: cursive;
 }
 
 body {
-  background: url('img/temp_banner.jpg') no-repeat right fixed;
+  background: rgb(81, 65, 107) 
+  url('img/temp_banner.jpg') no-repeat right fixed;
   -webkit-background-size: 8rem;
   -moz-background-size: 8rem;
   background-size: 8rem;
