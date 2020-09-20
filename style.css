@@ -15,10 +15,10 @@
 
 #footer {
   color:orange;
-  position: absolute;
+  position: bottom;
   bottom: 0%;
-  width: 20%;
-  height: 6.5rem;            /* Footer height */
+  width: 10%;
+  height: 6rem;            /* Footer height */
 }
 
 .list-unstyled { 
@@ -28,12 +28,43 @@ font-family: cursive;
 }
 
 body {
-  background: rgb(63, 3, 158)
-  url('img/temp_banner.jpg') no-repeat right fixed;
-  -webkit-background-size: 8rem;
-  -moz-background-size: 8rem;
-  background-size: 8rem;
-  -o-background-size: 8rem;
+  margin: 30px;
+  background: -webkit-linear-gradient(rgb(230, 78, 78), rgb(226, 205, 12));
+}
+
+#sidebar{
+	float: center;
+	width:  100%;
+	padding: 0px;
+	background:#c4a0ca;
+	color: rgb(73, 2, 2);
+  box-sizing: border-box;
+  font-size: .7rem;
+	
+}
+
+
+.mycol-bg1 {
+background-image: url('img/temp_banner.jpg');
+background-repeat: no-repeat;
+background-size: 12rem 13rem;
+background-position: center;
+
+}
+
+
+
+.my-container {
+  border: 10px solid rgb(24, 1, 1);
+}
+
+.my-row {
+  border: 5px solid rgb(66, 236, 36);
+}
+
+.my-col {
+  border: 8px dotted rgb(136, 136, 233);
+  height: 300px;
 }
 
 .lead {
