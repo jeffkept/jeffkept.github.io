@@ -62,17 +62,7 @@ background-position: center;
   }
 
   
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+  
 
 
 
@@ -80,42 +70,8 @@ background-position: center;
 
   
   .mycol-bg3 {
-    height: 100%;
-    /* max-height: 600px; */
-    width: 1000px;
-    background-color: hsla(200,40%,30%,.4);
-    background-image:		
-      url('img/temp_banner.jpg');
-      
-      
-     
-
-     
-    background-repeat: repeat-x;
-    background-position: 
-      0 20%,
-      0 100%,
-      0 50%,
-      0 100%,
-      0 0;
-    background-size: 
-      8rem,
-      8rem,
-      8rem 8rem,
-      8rem,
-      8rem 8rem;
-    animation: 100s para infinite linear;
-    }
-  
-  @keyframes para {
-    100% {
-      background-position: 
-        -5000px 20%,
-        -800px 95%,
-        500px 50%,
-        1000px 100%,
-        400px 0;
-      }
+    
+    
     }
 
     
