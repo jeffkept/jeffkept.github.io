@@ -56,7 +56,6 @@ background-position: center;
 .mycol-bg2 {
   color: black;
   background: linear-gradient(-45deg, #d6bbb3, #b9205b, #3c6a7a, #f167b8);
-  animation: gradient 10s ease infinite;
   background-repeat: no-repeat;
   background-size: 29rem 15rem;
   background-position: center;
