@@ -29,7 +29,7 @@ font-family: cursive;
 
 body {
   margin: 30px;
-  background: -webkit-linear-gradient(rgb(175, 27, 212), rgba(15, 180, 29, 0.76));
+  background: linear-gradient(-45deg, #e2d8d5, #d84d82, #1daada, #66043d);
 }
 
 #sidebar{
@@ -45,7 +45,8 @@ body {
 
 
 .mycol-bg1 {
-background-image: url('img/85.jpg');
+background: rgb(87, 72, 87)
+ url('img/85.jpg');
 background-repeat: no-repeat;
 background-size: 12rem 13rem;
 background-position: center;
@@ -57,7 +58,7 @@ background-position: center;
   background: linear-gradient(-45deg, #d6bbb3, #b9205b, #3c6a7a, #f167b8);
   animation: gradient 10s ease infinite;
   background-repeat: no-repeat;
-  background-size: 5rem 15rem;
+  background-size: 29rem 15rem;
   background-position: center;
   }
 
@@ -70,14 +71,19 @@ background-position: center;
 
   
   .mycol-bg3 {
-    
+    background: #1e3841
+      url('img/temp_banner.jpg');
+      background-repeat: no-repeat;
+      background-size: 12rem 13rem;
+      background-position: center;
     
     }
 
     
 
     .mycol-bg4 {
-      background-image: url('img/6544.jpg');
+      background: #464c4e
+      url('img/6544.jpg');
       background-repeat: no-repeat;
       background-size: 12rem 13rem;
       background-position: center;
