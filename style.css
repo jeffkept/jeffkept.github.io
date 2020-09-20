@@ -14,11 +14,11 @@
 }
 
 #footer {
-  color:orange;
+  color:rgb(77, 51, 4);
   position: bottom;
   bottom: 0%;
-  width: 10%;
-  height: 6rem;            /* Footer height */
+  width: 20%;
+  height: .1rem;            /* Footer height */
 }
 
 .list-unstyled { 
@@ -29,7 +29,7 @@ font-family: cursive;
 
 body {
   margin: 30px;
-  background: -webkit-linear-gradient(rgb(230, 78, 78), rgb(226, 205, 12));
+  background: -webkit-linear-gradient(rgb(175, 27, 212), rgba(15, 180, 29, 0.76));
 }
 
 #sidebar{
@@ -45,13 +45,88 @@ body {
 
 
 .mycol-bg1 {
-background-image: url('img/temp_banner.jpg');
+background-image: url('img/85.jpg');
 background-repeat: no-repeat;
 background-size: 12rem 13rem;
 background-position: center;
 
 }
 
+.mycol-bg2 {
+  color: black;
+  background: linear-gradient(-45deg, #d6bbb3, #b9205b, #3c6a7a, #f167b8);
+  animation: gradient 10s ease infinite;
+  background-repeat: no-repeat;
+  background-size: 5rem 15rem;
+  background-position: center;
+  }
+
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+  
+
+  
+  .mycol-bg3 {
+    height: 100%;
+    /* max-height: 600px; */
+    width: 1000px;
+    background-color: hsla(200,40%,30%,.4);
+    background-image:		
+      url('img/temp_banner.jpg');
+      
+      
+     
+
+     
+    background-repeat: repeat-x;
+    background-position: 
+      0 20%,
+      0 100%,
+      0 50%,
+      0 100%,
+      0 0;
+    background-size: 
+      8rem,
+      8rem,
+      8rem 8rem,
+      8rem,
+      8rem 8rem;
+    animation: 100s para infinite linear;
+    }
+  
+  @keyframes para {
+    100% {
+      background-position: 
+        -5000px 20%,
+        -800px 95%,
+        500px 50%,
+        1000px 100%,
+        400px 0;
+      }
+    }
+
+    
+
+    .mycol-bg4 {
+      background-image: url('img/6544.jpg');
+      background-repeat: no-repeat;
+      background-size: 12rem 13rem;
+      background-position: center;
+      
+      }
 
 
 .my-container {
