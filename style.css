@@ -19,9 +19,35 @@ font-family: cursive;
 }
 
 body {
-  margin: 30px;
-  background: linear-gradient(-45deg, #f1c6b9, #c78da3, #315966, #66043d);
+  margin: 10px;
 }
+
+.mywebdevclassbg {
+  background: linear-gradient(-45deg, #0729e9, #4550ec, #6566d8, #130542);
+
+
+}
+
+.myfamilybusinessbg {
+  background: linear-gradient(-45deg, #057c05, #df4141, #46b41b, #238316);
+
+
+}
+
+.indexbg {
+  
+  background: linear-gradient(-45deg, #f1c6b9, #d6c848, #5456d8, #78eb7d);
+}
+
+.mylifebg {
+  
+  background: linear-gradient(-45deg, #eba4a4, #e0cc73, #757ed1, #f06868);}
+
+.mymusicbg{
+  
+  background: linear-gradient(-45deg, #1ece0e, #b91616, #ccdd6c, #b41515);
+}
+
 
 #sidebar{
 	float: center;
