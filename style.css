@@ -27,7 +27,7 @@ body {
 	float: center;
 	width:  100%;
 	padding: 0px;
-	background:#c4a0ca;
+	background: linear-gradient(-45deg, #eee4e1, #8d8ec7, #39af35, #db994e);
 	color: rgb(73, 2, 2);
   box-sizing: border-box;
   font-size: .7rem;
@@ -138,7 +138,6 @@ background-position: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
