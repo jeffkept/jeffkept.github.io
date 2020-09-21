@@ -131,26 +131,29 @@ background-position: center;
     -o-background-size: 8rem;
   }
 
-  /* Add a black background color to the top navigation */
-.topnav {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+ 
 
-
-
-/* Style the links inside the navigation bar */
-.topnav {
-  float: left;
-  color: #9b1010;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: .9rem;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(206, 216, 219);
-  color: black;
-}
-
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(33, 173, 8);
+    text-align: center;
+    padding: .4rem .4rem;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(88, 5, 109);
+  }
