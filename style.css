@@ -36,7 +36,7 @@ body {
 
 .indexbg {
   
-  background: linear-gradient(-45deg, #f1c6b9, #d6c848, #5456d8, #78eb7d);
+  background: linear-gradient(-45deg, #d33d3d, #489dd6, #5456d8, #78eb7d);
 }
 
 .mylifebg {
@@ -53,12 +53,37 @@ body {
 	float: center;
 	width:  100%;
 	padding: 0px;
-	background: linear-gradient(-45deg, #eee4e1, #8d8ec7, #39af35, #db994e);
-	color: rgb(31, 1, 1);
+	background: linear-gradient(-45deg, #add9ec, #7f81dd, #7099c8, #9654e0);
+	color: rgb(15, 15, 15);
   box-sizing: border-box;
-  font-size: .7rem;
-	
+  font-size: 1rem;
+  text-indent:  1rem;
+
 }
+
+#sidebar1{
+	float: right;
+	width:  20%;
+	padding: 0px;
+  background-color: rgb(251, 193, 112);
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-indent:  1rem;
+
+}
+
+#sidebar2{
+	float: left;
+	width:  20%;
+	padding: 0px;
+background-color: rgb(253, 204, 135);
+  box-sizing: border-box;
+  font-size: 1rem;
+  text-indent:  1rem;
+
+}
+
+
 
 
 .mycol-bg1 {
@@ -72,8 +97,12 @@ background-position: center;
 
 .mycol-bg2 {
   
-  
-  }
+  background: rgb(129, 218, 134)
+  url('img/ezgif.com-gif-maker.gif');
+ background-repeat: no-repeat;
+ background-size: 12rem 13rem;
+ background-position: center;
+}
 
   
   
@@ -112,7 +141,7 @@ background-position: center;
 
 .my-col {
   border: 8px dotted rgb(136, 136, 233);
-  height: 300px;
+  height: 260px;
 }
 
 .lead {
@@ -182,3 +211,5 @@ background-position: center;
   li a:hover {
     background-color: rgb(88, 5, 109);
   }
+
+  
