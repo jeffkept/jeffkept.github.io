@@ -1,8 +1,6 @@
 
 
-/* Modify the backgorund color */ 
 
-}
 
 #footer {
   color:rgb(77, 51, 4);
@@ -73,7 +71,8 @@ body {
 }
 
 #sidebar2{
-	float: left;
+  position: absolute;
+  
 	width:  20%;
 	padding: 0px;
 background-color: rgb(253, 204, 135);
@@ -130,9 +129,19 @@ background-position: center;
       }
 
 
+#containergrid {
+background-position: bottom;
+}
+
+
+
+
 .my-container {
   border: 10px solid rgb(24, 1, 1);
+width: 30rem;
+
 }
+
 
 .my-row {
   border: 5px solid rgb(66, 236, 36);
@@ -140,7 +149,7 @@ background-position: center;
 
 .my-col {
   border: 8px dotted rgb(136, 136, 233);
-  height: 260px;
+  height: 200px;
 }
 
 .lead {
