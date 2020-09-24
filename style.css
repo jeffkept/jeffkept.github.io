@@ -86,9 +86,9 @@ background-color: rgb(253, 204, 135);
 
 
 .mycol-bg1 {
-background: url('img/85.jpg');
+background: url('img/golf1.gif');
 background-repeat: no-repeat;
-background-size: 13rem 14rem;
+background-size: 300px 260px;
 background-position: center;
 
 }
@@ -140,13 +140,13 @@ width: 50rem;
 
 
 .my-row {
-  border: 8px solid rgb(4, 17, 1);
+  border: 2px solid rgb(4, 17, 1);
 
 }
 
 .my-col {
   height: 10rem;
-  border: 7px solid rgb(8, 20, 182);
+  border: 1px solid rgb(8, 20, 182);
 
 }
 
