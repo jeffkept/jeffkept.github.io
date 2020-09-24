@@ -86,8 +86,7 @@ background-color: rgb(253, 204, 135);
 
 
 .mycol-bg1 {
-background: rgb(246, 238, 246)
- url('img/85.jpg');
+background: url('img/85.jpg');
 background-repeat: no-repeat;
 background-size: 13rem 14rem;
 background-position: center;
@@ -121,7 +120,7 @@ background-position: center;
     
 
     .mycol-bg4 {
-      background: url('img/6544.jpg');
+      background: 
       background-repeat: no-repeat;
       background-size: 12rem 13rem;
       background-position: center;
@@ -129,27 +128,26 @@ background-position: center;
       }
 
 
-#containergrid {
-background-position: right;
-}
+
 
 
 
 
 .my-container {
-  border: 10px solid rgb(24, 1, 1);
 width: 50rem;
 
 }
 
 
 .my-row {
-  border: 5px solid rgb(66, 236, 36);
+  border: 8px solid rgb(4, 17, 1);
+
 }
 
 .my-col {
-  border: 8px dotted rgb(136, 136, 233);
   height: 10rem;
+  border: 7px solid rgb(2, 65, 4);
+
 }
 
 .lead {
