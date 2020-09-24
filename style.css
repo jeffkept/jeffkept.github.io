@@ -4,7 +4,7 @@
 
 #footer {
   color:rgb(77, 51, 4);
-  position: bottom;
+  float: right;
   bottom: 0%;
   width: 20%;
   height: .1rem;            /* Footer height */
@@ -130,7 +130,7 @@ background-position: center;
 
 
 #containergrid {
-background-position: bottom;
+background-position: right;
 }
 
 
@@ -138,7 +138,7 @@ background-position: bottom;
 
 .my-container {
   border: 10px solid rgb(24, 1, 1);
-width: 30rem;
+width: 50rem;
 
 }
 
@@ -149,7 +149,7 @@ width: 30rem;
 
 .my-col {
   border: 8px dotted rgb(136, 136, 233);
-  height: 200px;
+  height: 10rem;
 }
 
 .lead {
@@ -228,7 +228,7 @@ width: 30rem;
 /* styling paper */
 #paper {
   width: 13rem;
-  height: 35rem;
+  height: 40rem;
   position: relative;
   margin: 20px auto;
   padding-top: 40px;
