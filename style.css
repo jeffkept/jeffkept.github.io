@@ -82,7 +82,32 @@ background-color: rgb(253, 204, 135);
 
 }
 
+.mycol-bga {
+  background: url('img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+  background-position: center;
 
+
+}
+
+.mycol-bgb {
+  background: url('img/2.jpg');
+  background-repeat: no-repeat;
+  background-size: 380px 300px;
+  background-position: center;
+
+
+}
+
+.mycol-bgc {
+  background: url('img/3.jpg');
+  background-repeat: no-repeat;
+  background-size: 300px 290px;
+  background-position: center;
+
+
+}
 
 
 .mycol-bg1 {
