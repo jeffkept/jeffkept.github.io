@@ -10,10 +10,10 @@
   height: .1rem;            /* Footer height */
 }
 
-.list-unstyled { 
-  font-size: 2rem;
-color: rgb(36, 243, 71);
-font-family: cursive;
+.list{ 
+  font-size: 1rem;
+color: rgb(20, 1, 1);
+font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -21,13 +21,13 @@ body {
 }
 
 .mywebdevclassbg {
-  background: linear-gradient(-45deg, #0729e9, #4550ec, #6566d8, #130542);
+  background: linear-gradient(-45deg, #021268, #272c79, #333474, #1e0d57);
 
 
 }
 
 .myfamilybusinessbg {
-  background: linear-gradient(-45deg, #057c05, #df4141, #46b41b, #238316);
+  background: linear-gradient(-45deg, #073107, #28620d, #244916, #052401);
 
 
 }
@@ -39,11 +39,11 @@ body {
 
 .mylifebg {
   
-  background: linear-gradient(-45deg, #eba4a4, #e0cc73, #757ed1, #f06868);}
+  background: linear-gradient(-45deg, #17091a, #4183ce, #3645cc, #130914);}
 
 .mymusicbg{
   
-  background: linear-gradient(-45deg, #1ece0e, #b91616, #ccdd6c, #b41515);
+  background: linear-gradient(-45deg, #490303, #442121, #521d1d, #7c2929);
 }
 
 
@@ -176,48 +176,12 @@ width: 50rem;
 }
 
 .lead {
-  color: aqua;
-  font-size: 1.5rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #8edafd;
+  font-size: 1.1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
 
-  .topic1 {
-    background: rgb(76, 75, 76)
-    url('img/temp_banner.jpg') no-repeat right fixed;
-    -webkit-background-size: 8rem;
-    -moz-background-size: 8rem;
-    background-size: 8rem;
-    -o-background-size: 8rem;
-  }
-
-  .topic2 {
-    background: rgb(10, 141, 173)
-    url('img/temp_banner.jpg') no-repeat right fixed;
-    -webkit-background-size: 8rem;
-    -moz-background-size: 8rem;
-    background-size: 8rem;
-    -o-background-size: 8rem;
-  }
-
-  .topic3 {
-    background: rgb(138, 90, 90)
-    url('img/temp_banner.jpg') no-repeat right fixed;
-    -webkit-background-size: 8rem;
-    -moz-background-size: 8rem;
-    background-size: 8rem;
-    -o-background-size: 8rem;
-  }
-
-  .topic4 {
-    background: rgb(126, 116, 15)
-    url('img/temp_banner.jpg') no-repeat right fixed;
-    -webkit-background-size: 8rem;
-    -moz-background-size: 8rem;
-    background-size: 8rem;
-    -o-background-size: 8rem;
-  }
-
- 
+  
 
   ul {
     list-style-type: none;
@@ -232,11 +196,18 @@ width: 50rem;
   
   li a {
     display: block;
-    color: rgb(33, 173, 8);
     text-align: center;
     padding: .4rem .4rem;
     text-decoration: none;
   }
+  .navcolor {
+    color: rgb(51, 235, 51);
+  }
+
+  .navcolor1 {
+    color: #3cf0f6;
+  }
+
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
@@ -292,7 +263,19 @@ width: 50rem;
 
 
 
-  
+.mt-5 {
+  color: orangered;
+}
+
+
+
+
+
+ 
+ 
+
+
+ 
   
 
   
