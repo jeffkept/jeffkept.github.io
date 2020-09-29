@@ -135,7 +135,7 @@ background-position: center;
 
   
   .mycol-bg3 {
-    background: url('img/temp_banner.jpg');
+    background: url('img/12333-min.jpg');
       background-repeat: no-repeat;
       background-size: 12rem 13rem;
       background-position: center;
@@ -152,7 +152,13 @@ background-position: center;
       
       }
 
-
+      .mycol-bg5 {
+        background: url('img/temp_banner.jpg');
+        background-repeat: no-repeat;
+        background-size: 12rem 13rem;
+        background-position: center;
+        
+        }
 
 
 
