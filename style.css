@@ -111,9 +111,9 @@ background-color: rgb(253, 204, 135);
 
 
 .mycol-bg1 {
-background: url('img/golf1.gif');
+background: url('img/golf\ pic\ \(3\).PNG');
 background-repeat: no-repeat;
-background-size: 200px 200px;
+background-size: 230px 240px;
 background-position: center;
 
 }
