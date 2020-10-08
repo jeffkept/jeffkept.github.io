@@ -270,7 +270,8 @@ width: 50rem;
 
 
 .mt-5 {
-  color: orangered;
+  font-size: .8rem;
+  color: rgb(238, 255, 0);
 }
 
 
